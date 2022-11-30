@@ -1,0 +1,26 @@
+.stat {
+  margin-left: -40rem;
+  margin-right: 5rem;
+  margin-top: 14rem;
+  border: 2px solid black;
+  height: 20rem;
+  border-radius: 10px;
+}
+.stat h3 {
+  text-align: center;
+  margin-top: 30px;
+}
+.applycontainer {
+  margin-top: 1vh;
+  border: 2px solid black;
+  height: 63rem;
+  width: 70rem;
+  box-shadow: 5px 6px 8px 4px black;
+  margin-left: 0%;
+}
+#envelop {
+  margin-left: 28%;
+}
+sup {
+  color: red;
+}

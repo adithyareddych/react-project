@@ -1,0 +1,47 @@
+#btnlog {
+  margin-left: 45%;
+  margin-top: 50px;
+  height: 50px;
+  width: 100px;
+  color: white;
+  background-color: blue;
+}
+.status {
+  margin-left: 9%;
+  margin-top: 5%;
+  width: 72rem;
+  /* border: 2px solid black; */
+}
+
+td {
+  padding-left: 90px;
+  text-decoration: none;
+  line-height: 3;
+  padding-top: 15px;
+  font-weight: 800;
+}
+th {
+  padding-left: 86px;
+}
+.tab {
+  padding-top: 20px;
+  margin-top: 10px;
+  border: 2px solid red;
+}
+.btnacp {
+  background-color: green;
+  width: 80px;
+  height: 45px;
+  border-radius: 5px;
+  color: white;
+  margin-left: -20px;
+  /* margin-bottom: 10px; */
+}
+.btnrej {
+  background-color: red;
+  width: 80px;
+  height: 45px;
+  border-radius: 5px;
+  color: white;
+  margin-left: -95px;
+}

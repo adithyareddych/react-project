@@ -1,0 +1,29 @@
+#alacc {
+  margin-left: 19%;
+}
+#sig {
+  text-decoration: none;
+}
+/* .signupcontainer {
+  border: 2px solid black;
+  width: 70%;
+  box-shadow: 5px 10px 10px 10px green;
+} */
+.signupcontainer {
+  margin-top: 5%;
+  /* border: 2px solid black; */
+  width: 90%;
+  height: 51rem;
+  box-shadow: 5px 6px 8px 4px black;
+}
+/* ::placeholder {
+  color: deeppink;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-left: 10%;
+} */
+.signupicon {
+  margin-left: 18%;
+  position: relative;
+  top: 3.8%;
+}

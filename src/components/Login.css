@@ -1,0 +1,22 @@
+.left_data {
+  margin-top: 15%;
+}
+/* p #alacc {
+  text-decoration: none;
+} */
+.sigup {
+  text-decoration: none;
+}
+.signincontainer {
+  margin-top: 1vh;
+  border: 2px solid black;
+  height: 33rem;
+  width: 90%;
+  box-shadow: 5px 6px 8px 4px black;
+  margin-left: 5%;
+}
+.signinicon {
+  position: relative;
+  margin-left: 18%;
+  top: 7.5%;
+}

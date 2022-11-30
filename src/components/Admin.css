@@ -1,0 +1,13 @@
+.alacc1 {
+  margin-left: 160px;
+  text-decoration: none;
+}
+/* p span {
+  text-decoration: none;
+} */
+.admincontainer {
+  border: 2px solid black;
+  margin-top: 3%;
+  box-shadow: 5px 6px 8px 4px black;
+  height: 30rem;
+}

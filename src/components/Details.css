@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.photo {
+  border-radius: 50%;
+  margin-left: 12%;
+}
+/* body {
+  background-image: linear-gradient(#eef2f3, #8e9eab);
+} */
+.content1 {
+  background-image: linear-gradient(#eef2f3, #8e9eab);
+}
+#btnlog {
+  margin-left: 60%;
+  margin-right: 1%;
+}
+#justify-center1 {
+  text-align: center;
+  color: white;
+  padding-bottom: 2%;
+}
+.box {
+  padding: 8px 0;
+  margin: 12px 22px;
+  margin-left: 8%;
+  width: 25vw;
+  height: 27vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  /* text-align: center; */
+  background-color: white;
+}
+.box span {
+  margin-bottom: 10px;
+}
+.box b {
+  padding-left: 10px;
+  padding-right: 2px;
+}
+.box1 {
+  padding: 8px 0;
+  margin: -1px 0px;
+  margin-left: 8%;
+  width: 25vw;
+  min-width: 20vw;
+  height: 12vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+  float: left;
+}
+.att {
+  height: 22px;
+  width: 15%;
+  background-color: #cacaca;
+  position: absolute;
+  top: 90%;
+  left: 12%;
+  border-radius: 10px;
+}
+.attbar {
+  height: 22px;
+  width: 73%;
+  border-radius: 10px;
+  background-color: orange;
+}
+.box2 {
+  padding: 8px 0;
+  margin-left: 37%;
+  /* padding-top: 2%; */
+  width: 25vw;
+  height: 27vw;
+  margin-top: -27.9%;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-right: 2%;
+  text-align: center;
+  background-color: white;
+}
+.box3 {
+  padding: 8px 0;
+  margin-left: 37%;
+  /* padding-top: 1%; */
+  height: 11.8vw;
+  width: 55vw;
+  margin-top: 0.9%;
+  margin-right: 3%;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+}
+li {
+  list-style: none;
+}
+.box4 {
+  padding: 8px 0;
+  margin-left: 67%;
+  /* padding-top: 2%; */
+  width: 25vw;
+  height: 27vw;
+  margin-top: -27.6%;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-right: 2%;
+  /* text-align: center; */
+  background-color: white;
+}
+.box4 li {
+  padding: 12px;
+}
+.box4 h3 {
+  text-align: center;
+}
+.box4 span {
+  padding-left: 60px;
+  text-align: right;
+  font-weight: bold;
+}
+#wt {
+  padding-left: 81px;
+}
+#os {
+  padding-left: 76px;
+}
+#cn {
+  padding-left: 65.5px;
+}
+.btn2 {
+  color: white;
+  /* padding: 10px; */
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  height: 10%;
+  opacity: 0.9;
+  margin-top: 1%;
+  margin-left: 25%;
+  background-color: blue;
+  border-radius: 5px;
+  text-align: center;
+}
+#sep {
+  margin-left: 20px;
+}
+#sep1 {
+  margin-left: 82px;
+}
+#sep2 {
+  margin-left: 14px;
+}
+#sep3 {
+  margin-left: 73px;
+}
+#sep4 {
+  margin-left: -15px;
+}
+#sep5 {
+  margin-left: 32px;
+}
+.content span {
+  font-weight: bold;
+  display: inline-block;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}

@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* body,
+html {
+  height: 100%;
+} */
+.side-nav11 {
+  width: 215px;
+  margin-top: 5%;
+  height: 100%;
+  background: rgb(27, 27, 27);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.navbar-brand11 {
+  padding-left: 2%;
+}
+.nav-links11 {
+  padding: 20%;
+  position: relative;
+}
+.nav-links11 .list11 {
+  list-style: none;
+  padding: 12px 0;
+}
+.nav-links11 .list11 a {
+  text-decoration: none;
+  color: white;
+}
+.active11 {
+  background: white;
+  width: 100%;
+  height: 47px;
+  position: absolute;
+  left: 0;
+  top: 8%;
+  z-index: -1;
+  border-radius: 6px;
+  display: none;
+  transition: top 0.5s;
+}
+.nav-links11 .list11:hover a {
+  color: black;
+  transition: 0.3s;
+}
+.nav-links11 .list11:hover #btnlog11 {
+  color: black;
+  transition: 0.3s;
+}
+.nav-links11 .list11:hover ~ .active11 {
+  display: block;
+}
+.nav-links11 .list11:nth-child(1):hover ~ .active11 {
+  top: 7%;
+}
+.nav-links11 .list11:nth-child(2):hover ~ .active11 {
+  top: 18%;
+}
+.nav-links11 .list11:nth-child(3):hover ~ .active11 {
+  top: 29%;
+}
+.nav-links11 .list11:nth-child(4):hover ~ .active11 {
+  top: 40%;
+}
+.nav-links11 .list11:nth-child(5):hover ~ .active11 {
+  top: 51%;
+}
+.nav-links11 .list11:nth-child(6):hover ~ .active11 {
+  top: 62%;
+}
+.nav-links11 .list11:nth-child(7):hover ~ .active11 {
+  top: 73%;
+}
+.nav-links11 .list11:nth-child(8):hover ~ .active11 {
+  top: 84%;
+}
+/* .photo {
+  border-radius: 50%;
+  margin-left: 12%;
+}
+body {
+  background-image: linear-gradient(#eef2f3, #8e9eab);
+} */
+#btnlog11 {
+  /* margin-left: 6%;
+  margin-right: 1%;
+  width: 100px;
+  height: 40px; */
+  background: none;
+  color: white;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+#justify-center1 {
+  text-align: center;
+  color: white;
+  padding-bottom: 2%;
+}
+.box {
+  padding: 8px 0;
+  margin: 12px 22px;
+  margin-left: 18%;
+  width: 25vw;
+  height: 27vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  /* text-align: center; */
+  background-color: white;
+}
+.box b {
+  padding-left: 10px;
+  padding-right: 2px;
+}
+.box1 {
+  padding: 8px 0;
+  margin: -5px;
+  margin-left: 18%;
+  width: 25vw;
+  min-width: 20vw;
+  height: 12vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+  float: left;
+}
+.att {
+  height: 22px;
+  width: 15%;
+  background-color: #cacaca;
+  position: absolute;
+  top: 92.5%;
+  left: 22%;
+  border-radius: 10px;
+}
+.attbar {
+  height: 22px;
+  width: 73%;
+  border-radius: 10px;
+  background-color: orange;
+}
+.box2 {
+  padding: 8px 0;
+  margin-left: 45%;
+  /* padding-top: 2%; */
+  width: 25vw;
+  height: 27vw;
+  margin-top: -28.2%;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-right: 2%;
+  text-align: center;
+  background-color: white;
+}
+.box3 {
+  padding: 8px 0;
+  margin-left: 45%;
+  /* padding-top: 1%; */
+  width: 109vh;
+  height: 12vw;
+  margin-top: 0.6%;
+  margin-right: 2%;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+}
+.list11 {
+  list-style: none;
+}
+.box4 {
+  padding: 8px 0;
+  margin-left: 72%;
+  /* padding-top: 2%; */
+  width: 25vw;
+  height: 27vw;
+  margin-top: -27.4%;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-right: 2%;
+  /* text-align: center; */
+  background-color: white;
+}
+.box4 li {
+  padding: 12px;
+}
+.box4 h3 {
+  text-align: center;
+}
+.box4 span {
+  padding-left: 60px;
+  text-align: right;
+  font-weight: bold;
+}
+#wt {
+  padding-left: 81px;
+}
+#os {
+  padding-left: 76px;
+}
+#cn {
+  padding-left: 65.5px;
+}
+/* .btn1 {
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  height: 10%;
+  opacity: 0.9;
+  margin-top: 1%;
+  margin-left: 25%;
+  background-color: blue;
+  border-radius: 5px;
+  text-align: center;
+} */
+#sep {
+  margin-left: 19px;
+}
+#sep1 {
+  margin-left: 81px;
+}
+#sep2 {
+  margin-left: 12px;
+}
+#sep3 {
+  margin-left: 71px;
+}
+#sep4 {
+  margin-left: -17px;
+}
+#sep5 {
+  margin-left: 29px;
+}
+.box span {
+  font-weight: bold;
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}

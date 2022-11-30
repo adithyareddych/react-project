@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #ddd;
+  font-family: "Nunito", sans-serif;
+  overflow: scroll;
+}
+#blo {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 70px;
+}
+.app {
+  /* margin: auto; */
+  width: 100%;
+}
+nav {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-control,
+#addb {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.blogs-container {
+  margin-top: 50px;
+}
+
+.blogs-container h2 {
+  margin: 15px 0;
+}
+
+.blogs-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-image: url("./images/3.jpg");
+  height: 25rem;
+  bottom: 0%;
+  background-repeat: "no-repeat";
+  background-size: "cover";
+}
+/* h2,
+p {
+  color: white;
+  text-decoration: none;
+} */
+.blogs-title {
+  color: white;
+  text-decoration: none;
+}
+.blogs-body {
+  color: white;
+}
+.delete-btn {
+  margin-top: 10px;
+  background-color: red;
+  color: #fff;
+  padding: 15px 40px;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 32%;
+  /* position: fixed; */
+}
+.contain {
+  /* background-color: green; */
+  width: 800px;
+  height: 300px;
+  margin-left: 15%;
+}
+#addb {
+  width: 20%;
+  margin-left: 39%;
+}
+/* #blo {
+  margin-top: 70px;
+} */
+.blogicon {
+  margin-left: 37%;
+  position: relative;
+  top: 4rem;
+}
